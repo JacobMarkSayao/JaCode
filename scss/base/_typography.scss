@@ -1,0 +1,26 @@
+@use "../abstract/" as *;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap');
+
+$font: "Inter', sans-serif";
+
+html {
+    font-size: 62.5%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+
+// p {
+//     color: $clr--light;
+//     font-size: clamp(1rem, 5vw, 1.4rem);
+// }
+
+.banner {
+    p {
+    font-size: clamp(2rem, 5vw, 4rem);
+}
+}

@@ -1,0 +1,29 @@
+@use "../abstract/" as *;
+
+.header {
+    &__wrapper {
+        align-items: center;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        img {
+            width: 13rem;
+        }
+        display: flex;
+        justify-content: space-between;
+        nav {
+            ul {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                gap: 4rem;
+                    li {
+                        list-style: none;
+                            a {
+                                color: $clr--LG;
+                }
+            }
+        }
+        }
+
+    }
+}
