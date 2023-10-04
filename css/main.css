@@ -960,12 +960,8 @@ img {
 .btn {
   background-color: transparent;
   display: inline-block;
-  padding: 1.5rem 5rem;
-  border: 1px solid #F63645;
-}
-.btn.bg--MG {
-  background-color: #F63645;
-  color: #FBFBFB;
+  padding: 1rem 1rem;
+  border: 1px solid #FBFBFB;
 }
 
 .header__wrapper {
@@ -979,6 +975,7 @@ img {
   width: 13rem;
 }
 .header__wrapper nav ul {
+  font-size: 1.5rem;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -992,7 +989,9 @@ img {
 }
 
 .banner__text {
-  width: 55rem;
+  width: 60rem;
+  padding-left: 10rem;
+  padding-top: 8rem;
 }
 .banner h1 {
   padding-top: 10rem;
@@ -1009,6 +1008,7 @@ img {
   color: #FBFBFB;
   width: 40rem;
   padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 .banner a {
   font-size: 2rem;
@@ -1016,4 +1016,8 @@ img {
 }
 .banner__img {
   width: 100%;
+}
+
+.container {
+  background-image: url(./Img/img-home/dark.png);
 }/*# sourceMappingURL=main.css.map */
