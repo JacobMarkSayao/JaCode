@@ -70,6 +70,10 @@ td {
   list-style: none;
 }
 
+body{
+  font-family: $font;
+}
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -96,5 +100,5 @@ img {
   width: 100%;
   max-width: 100%;
   margin: 0 auto;
-  padding: 0 10rem;
+  padding: 0 20rem;
 }

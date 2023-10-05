@@ -1,17 +1,21 @@
 @use "../abstract/" as *;
 
 .banner {
+    .banner__wrapper {
+        display: flex;
+        justify-content: space-around;
+    }
     
     &__text {
         width: 60rem;
-        padding-left: 10rem;
-        padding-top: 8rem;
-
+        padding-top: 25rem;
     }
     h1 {
-        padding-top: 10rem;
         font-size: 8rem;
         color: $clr--LG;
+    span {
+        color: $clr--P;
+    }
     }
     h3 {
         font-size: 3rem;
@@ -28,15 +32,102 @@
     a {
         font-size: 2rem;
         color: $clr--LG;
+        margin-bottom: 21rem;
     }
-
     &__img {
-        
-        width: 100%;
-
+        width: 65rem;
     }
 }
 
-.container {
-    background-image: url(./Img/img-home/dark.png);
+
+.banner__bg {
+    background-image: url(../Img/img-home/gray-painted-background_53876-94041.avif);
+    background-size: 100%;
+    // filter: grayscale(100);
+    transition: 500ms;
+    
 }
+// .banner__bg:hover {
+//     filter: grayscale(0);
+//     transition: 500ms;
+// }
+// ------------------------------------------------------------------------
+.about {
+    &__text {
+        padding-top: 5rem;
+        .top {
+            justify-content: flex-end;
+        }
+        h2 {
+            font-size: 10rem;
+            color: $clr--MG;
+            display: flex;
+            justify-content: flex-end;
+        }
+        .buttom {
+            display: flex;
+            flex-direction: row;
+            gap: 20rem;
+            align-items: center;
+        }
+        h5 {
+            font-size: 3rem;
+            color: $clr--LG;
+        }
+        p {
+            color: $clr--LG;
+            font-size: medium;
+        }
+    }
+    
+}
+
+// ----------------------------------------------------------------------
+.specialized {
+    &__wrapper {
+        padding-top: 5rem;
+        .BnW__img {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            .figma {
+                filter: grayscale(100);
+                transition: 600ms;
+            }
+            .figma:hover {
+                filter: grayscale(0);
+                transition: 600ms;
+            }
+            .html {
+                filter: grayscale(100);
+                transition: 600ms;
+            }
+            .html:hover {
+                filter: grayscale(0);
+                transition: 600ms;
+            }
+            .css {
+                filter: grayscale(100);
+                transition: 600ms;
+            }
+            .css:hover {
+                filter: grayscale(0);
+                transition: 600ms;
+            }
+            img {
+                width: 46.5rem;
+                height: 46.5rem;
+        }
+
+    }
+        .s__text {
+            h2 {
+                
+                font-size: 10rem;
+                color: $clr--MG;
+            }
+        }
+    }
+    
+}
+

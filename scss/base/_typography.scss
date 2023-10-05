@@ -1,10 +1,11 @@
 @use "../abstract/" as *;
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap");
 
-$font: "Inter', sans-serif";
+$font: "Poppins", sans-serif;
 
 html {
-    font-size: 62.5%;
+  font-family: $font;
+  font-size: 62.5%;
 }
 
 h1,
@@ -20,7 +21,7 @@ h6,
 // }
 
 .banner {
-    p {
+  p {
     font-size: clamp(2rem, 5vw, 4rem);
-}
+  }
 }

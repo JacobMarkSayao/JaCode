@@ -1,0 +1,77 @@
+@use "../abstract/" as *;
+
+.s_banner {
+    &__service {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .f__wd {
+        padding-top: 3rem;
+        width: 50rem;
+        filter: grayscale(100);
+        transition: 600ms;
+    }
+    .f__wd:hover {
+        filter: grayscale(0);
+        transition: 600ms;
+    }
+
+    &__wrapper {
+        padding-bottom: 4rem;
+        .s_banner__skills {
+            padding-top: 5rem;
+            padding-bottom: 3rem;
+            h3 {
+                font-size: 4rem;
+                padding-bottom: 3rem;
+                text-align: center;
+                color: $clr--P;
+            }
+        }
+        .my__skills {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            .figma {
+                filter: grayscale(100);
+                transition: 600ms;
+            }
+            .figma:hover {
+                filter: grayscale(0);
+                transition: 600ms;
+            }
+            .html {
+                filter: grayscale(100);
+                transition: 600ms;
+            }
+            .html:hover {
+                filter: grayscale(0);
+                transition: 600ms;
+            }
+            .css {
+                filter: grayscale(100);
+                transition: 600ms;
+            }
+            .css:hover {
+                filter: grayscale(0);
+                transition: 600ms;
+            }
+        img {
+            width: 46.5rem;
+            height: 46.5rem;
+            }
+                    }
+
+        .skills {
+                display: flex;
+                justify-content: space-around;
+            h4 {
+                color: $clr--P;
+                font-size: 2rem;
+            }
+        }
+}
+}
