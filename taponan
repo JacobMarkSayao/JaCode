@@ -1,0 +1,239 @@
+
+  // @include iPhone-SE {
+  //   .container {
+  //     padding: 0;
+  //   }
+  //   .banner {
+  //     &__wrapper {
+  //       padding-left: 0;
+  //       .banner__text {
+  //         padding-left: 0;
+  //         text-align: center;
+  //         display: flex;
+  //         flex-direction: column;
+  //         align-items: center;
+  //       }
+  //       .banner__img {
+  //         img {
+  //           display: none;
+  //         }
+  //       }
+  //     }
+  //   }
+  // }
+  // @include iPhone-XR {
+  //   .container {
+  //     padding: 0;
+  //   }
+  //   .banner {
+  //     &__wrapper {
+  //       padding-left: 0;
+  //       .banner__text {
+  //         padding-left: 0;
+  //         text-align: center;
+  //         display: flex;
+  //         flex-direction: column;
+  //         align-items: center;
+  //       }
+  //       .banner__img {
+  //         img {
+  //           display: none;
+  //         }
+  //       }
+  //     }
+  //   }
+  // }
+  // @include iPhone-12-Pro {
+  //   .container {
+  //     padding: 0;
+  //   }
+  //   .banner {
+  //     &__wrapper {
+  //       padding-left: 0;
+  //       .banner__text {
+  //         padding-left: 0;
+  //         text-align: center;
+  //         display: flex;
+  //         flex-direction: column;
+  //         align-items: center;
+  //       }
+  //       .banner__img {
+  //         img {
+  //           display: none;
+  //         }
+  //       }
+  //     }
+  //   }
+  // }
+  // @include iPad-Air {
+  //   .container {
+  //     padding: 0;
+  //   }
+  //   .banner {
+  //     &__wrapper {
+  //       padding-left: 0;
+  //       .banner__text {
+  //         padding-left: 0;
+  //         text-align: center;
+  //         display: flex;
+  //         flex-direction: column;
+  //         align-items: center;
+  //       }
+  //       .banner__img {
+  //         img {
+  //           display: none;
+  //         }
+  //       }
+  //     }
+  //   }
+  // }
+  // @include iPad-Mini {
+  //   .container {
+  //     padding: 0;
+  //   }
+  //   .banner {
+  //     &__wrapper {
+  //       padding-left: 0;
+  //       .banner__text {
+  //         padding-left: 0;
+  //         text-align: center;
+  //         display: flex;
+  //         flex-direction: column;
+  //         align-items: center;
+  //       }
+  //       .banner__img {
+  //         img {
+  //           display: none;
+  //         }
+  //       }
+  //     }
+  //   }
+  // }
+  // @include Surface-Pro {
+  //   .container {
+  //     padding: 0;
+  //   }
+  //   .banner {
+  //     &__wrapper {
+  //       padding-left: 0;
+  //       .banner__text {
+  //         padding-left: 0;
+  //         text-align: center;
+  //         display: flex;
+  //         flex-direction: column;
+  //         align-items: center;
+  //       }
+  //       .banner__img {
+  //         img {
+  //           display: none;
+  //         }
+  //       }
+  //     }
+  //   }
+  // }
+  // @include Nest-Hub {
+  //   .container {
+  //     padding: 0;
+  //   }
+  //   .banner {
+  //     &__wrapper {
+  //       padding-left: 0;
+  //       .banner__text {
+  //         padding-left: 0;
+  //         text-align: center;
+  //         display: flex;
+  //         flex-direction: column;
+  //         align-items: center;
+  //       }
+  //       .banner__img {
+  //         img {
+  //           display: none;
+  //         }
+  //       }
+  //     }
+  //   }
+  // }
+  // @include Nest-Hub-Max {
+  //   .container {
+  //     padding: 0;
+  //   }
+  //   .banner {
+  //     &__wrapper {
+  //       padding-left: 0;
+  //       .banner__text {
+  //         padding-left: 0;
+  //         text-align: center;
+  //         display: flex;
+  //         flex-direction: column;
+  //         align-items: center;
+  //       }
+  //       .banner__img {
+  //         img {
+  //           display: none;
+  //         }
+  //       }
+  //     }
+  //   }
+  // }
+  // @include tablet {
+  //   .container {
+  //     padding: 0;
+  //   }
+  //   .banner {
+  //     &__wrapper {
+  //       padding-left: 0;
+  //       .banner__text {
+  //         padding-left: 0;
+  //         text-align: center;
+  //         display: flex;
+  //         flex-direction: column;
+  //         align-items: center;
+  //       }
+  //       .banner__img {
+  //         img {
+  //           display: none;
+  //         }
+  //       }
+  //     }
+  //   }
+  // }
+  // @include tablet {
+  //   .container {
+  //     padding: 0;
+  //   }
+  //   .banner {
+  //     &__wrapper {
+  //       padding-left: 0;
+  //       .banner__text {
+  //         padding-left: 0;
+  //         text-align: center;
+  //         display: flex;
+  //         flex-direction: column;
+  //         align-items: center;
+  //       }
+  //       .banner__img {
+  //         img {
+  //           display: none;
+  //         }
+  //       }
+  //     }
+  //   }
+  // }
+// ////////////////////////////////////////////////////////////////////////////////
+    // .toggle__menu {
+  //   width: 50rem;
+  //   height: 50rem;
+  //   background-color: $clr--P;
+  //   right: 100;
+
+  // }
+  // .toggle__menu.open {
+  //   width: 50rem;
+  //   height: 50rem;
+  //   background-color: $clr--P;
+  //   right: 0%;
+  // }
+
+  // .toggle__menu.open {
+
+  // }

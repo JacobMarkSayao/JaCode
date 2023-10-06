@@ -11,7 +11,79 @@
 }
 
 @mixin mediaQuery($width) {
-  @media screen and (min-width: $width) {
+  @media screen and (max-width: $width) {
+    @content;
+  }
+}
+
+$iPhone-SE: 375px;
+$iPhone-XR: 414px;
+$iPhone-12-Pro: 390px;
+$iPad-Air: 820px;
+$iPad-Mini: 768;
+$Surface-Pro: 912;
+$Nest-Hub: 1024;
+$Nest-Hub-Max: 1280;
+
+$mobile-width: 500px;
+$tablet-width: 768px;
+$desktop-width: 1024px;
+
+@mixin iPhone-SE {
+  @media (min-width: #{$iPhone-SE-width}) and (max-width: #{$iPhone-SE-width - 1px}) {
+    @content;
+  }
+}
+@mixin iPhone-XR {
+  @media (min-width: #{$iPhone-XR-width}) and (max-width: #{$iPhone-XR-width - 1px}) {
+    @content;
+  }
+}
+@mixin iPhone-12-Pro {
+  @media (min-width: #{$iPhone-12-Pro-width}) and (max-width: #{$iPhone-12-Pro-width - 1px}) {
+    @content;
+  }
+}
+@mixin iPad-Air {
+  @media (min-width: #{$iPad-Air-width}) and (max-width: #{$iPad-Air-width - 1px}) {
+    @content;
+  }
+}
+@mixin iPad-Mini {
+  @media (min-width: #{$iPad-Mini-width}) and (max-width: #{$iPad-Mini-width - 1px}) {
+    @content;
+  }
+}
+@mixin Surface-Pro {
+  @media (min-width: #{$Surface-Pro-width}) and (max-width: #{$Surface-Pro-width - 1px}) {
+    @content;
+  }
+}
+@mixin Nest-Hub {
+  @media (min-width: #{$Nest-Hub-width}) and (max-width: #{$Nest-Hub-width - 1px}) {
+    @content;
+  }
+}
+@mixin Nest-Hub-Max {
+  @media (min-width: #{$Nest-Hub-Max-width}) and (max-width: #{$Nest-Hub-Max-width - 1px}) {
+    @content;
+  }
+}
+// ///////////////////////////////////////////////////////////////////////////////////
+@mixin mobile {
+  @media (min-width: #{$mobile-width}) and (max-width: #{$tablet-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{$desktop-width}) {
     @content;
   }
 }

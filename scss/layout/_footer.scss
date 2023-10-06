@@ -1,37 +1,51 @@
 @use "../abstract/" as *;
 
 .footer {
-    background-color: $clr--B;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+  background-color: $clr--B;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 
-    h5 {
-        font-size: 1.5rem;
+  h5 {
+    font-size: 1.5rem;
+  }
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__left {
+    color: $clr--LG;
+  }
+  &__icon ul {
+    padding-top: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  &__icon ul li a:hover {
+    color: $clr--P;
+  }
+  &__icon ul li a {
+    color: $clr--LG;
+    display: flex;
+    flex-direction: row;
+    font-size: 3rem;
+  }
+
+  &__right {
+    color: $clr--LG;
+  }
+
+  @media screen and (max-width: 500px) {
+    .container {
+      padding: 0 2rem;
     }
     &__wrapper {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
     }
-
-    &__left {
-        color: $clr--LG;
-    }
-    &__icon ul {
-        padding-top: 0.5rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 1.5rem;
-    }
-    &__icon ul li a {
-        color: $clr--LG;
-        display: flex;
-        flex-direction: row;
-        font-size: 3rem;
-    }
-
-    &__right {
-        color: $clr--LG;
-    }
+  }
 }
